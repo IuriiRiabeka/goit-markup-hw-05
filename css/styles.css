@@ -610,7 +610,7 @@ placeholder {
 .close-btn-icon {
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-btn:hover + .close-btn-icon {
+.close-btn:hover {
 	fill: #ffffff;
 }
 .close-btn:focus + .close-btn-icon {
