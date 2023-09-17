@@ -602,6 +602,7 @@ placeholder {
 .close-btn:hover {
 	border: none;
 	background-color: #404bbf;
+	fill: #ffffff;
 }
 .close-btn:focus {
 	border: none;
