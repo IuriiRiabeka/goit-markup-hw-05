@@ -447,16 +447,40 @@
 						</li>
 					</ul>
 				</div>
+				<div class="footer-form-container">
+					<p class="footer-form-container-paragraf">Subscribe</p>
+					<form class="footer-form">
+						<label class="footer-form-label">
+							<input
+								class="footer-form-label-input"
+								name="Email"
+								type="email"
+								placeholder="E-mail"
+							/>
+						</label>
+						<button class="footer-subscribe-button" type="submit">
+							Subscribe
+							<svg
+								class="footer-subscribe-button-icon"
+								width="24"
+								height="24"
+								aria-label="footer-subscribe-icon"
+							>
+								<use href="./images/sprite.svg#icon-plane"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
 			</div>
 		</footer>
 		<!--Backdrop with modal window-->
 		<div class="backdrop is-open">
 			<div class="modal">
-				<button class="close-btn">
+				<button class="close-btn" type="button">
 					<svg
 						class="close-btn-icon"
-						width="24"
-						height="24"
+						width="8"
+						height="8"
 						aria-label="modal-close-icon"
 					>
 						<use href="./images/sprite.svg#icon-close"></use>
@@ -480,8 +504,8 @@
 							/>
 							<svg
 								class="review-form-field-icon"
-								width="24px"
-								height="24px"
+								width="18"
+								height="24"
 								aria-label="user-icon"
 							>
 								<use href="./images/sprite.svg#icon-frame"></use>
@@ -502,8 +526,8 @@
 							/>
 							<svg
 								class="review-form-field-icon"
-								width="24px"
-								height="24px"
+								width="18"
+								height="24"
 								aria-label="tel-icon"
 							>
 								<use href="./images/sprite.svg#icon-phone-black-18dp"></use>
@@ -524,8 +548,8 @@
 							/>
 							<svg
 								class="review-form-field-icon"
-								width="24px"
-								height="24px"
+								width="18"
+								height="24"
 								aria-label="email-icon"
 							>
 								<use href="./images/sprite.svg#icon-vector"></use>
@@ -533,12 +557,14 @@
 						</div>
 					</div>
 					<div class="review-form-field-wrapper">
-						<label class="review-form-field-label">Comment</label>
+						<label class="review-form-field-label" for="user-comment"
+							>Comment</label
+						>
 						<textarea
 							class="review-form-comment"
-							name="user_comment"
+							name="user-comment"
 							id="user-comment"
-							placeholder="Input text"
+							placeholder="Text input"
 						></textarea>
 					</div>
 					<div class="review-form-checkbox-wrapper">
@@ -546,7 +572,7 @@
 							class="review-form-checkbox visually-hidden"
 							type="checkbox"
 							id="user-privacy"
-							name="user_privacy"
+							name="user-privacy"
 							value="true"
 							required
 						/>
