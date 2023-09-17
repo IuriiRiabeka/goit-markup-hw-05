@@ -738,7 +738,7 @@ placeholder {
 .review-form-privacy-link {
 	color: #4d5ae5;
 }
-.review-form-checkbox:checked {
+.review-form-own-checkbox:checked {
 	border: none;
 	fill: #f4f4fd;
 }
@@ -746,14 +746,15 @@ placeholder {
 	+ .review-form-checkbox-label
 	> .review-form-own-checkbox {
 	background-color: #404bbf;
-}
-.review-form-checkbox:focus
+}*/
+.review-form-checkbox:focus,
+.review-form-checkbox:checked
 	+ .review-form-checkbox-label
 	> .review-form-own-checkbox {
 	background-color: inherit;
 	outline: transparent;
 	border-color: #404bbf;
-}*/
+}
 .review-form-submit {
 	display: block;
 	min-width: 169px;
