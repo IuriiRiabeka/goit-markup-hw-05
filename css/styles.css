@@ -400,6 +400,7 @@ button:focus {
 }
 .logoandtext {
 	margin-right: 120px;
+	margin-bottom: 16px;
 }
 .smtxt {
 	font-weight: 500;
