@@ -520,7 +520,7 @@ button:focus {
 .footer-form-container {
 	display: flex;
 	flex-direction: column;
-	margin-left: 64px;
+	margin-left: 80px;
 }
 .footer-form-container-paragraf {
 	margin-bottom: 16px;
@@ -554,7 +554,6 @@ placeholder {
 	color: #ffffff;
 }
 .footer-subscribe-button {
-	margin-left: 24px;
 	min-width: 165px;
 	height: 40px;
 	display: flex;
@@ -617,8 +616,6 @@ placeholder {
 }
 
 .preview-form-description {
-	width: 360px;
-	margin-top: 68px;
 	font-feature-settings: normal;
 	font-kerning: auto;
 	font-optical-sizing: auto;
@@ -724,7 +721,6 @@ placeholder {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #404bbf;
 
 	border-radius: 2px;
 	width: 16px;
@@ -742,28 +738,30 @@ placeholder {
 .review-form-privacy-link {
 	color: #4d5ae5;
 }
-.review-form-own-checkbox:checked {
+/*.review-form-own-checkbox:checked {
 	border: none;
-	fill: #f4f4fd;
-}
-/*.review-form-checkbox:checked
+	fill: #4d5ae5;
+	stroke: #4d5ae5;
+}*/
+.review-form-checkbox:checked
 	+ .review-form-checkbox-label
 	> .review-form-own-checkbox {
-	background-color: #404bbf;
-}*/
-.review-form-checkbox:focus,
+	fill: #4d5ae5;
+}
+/*.review-form-checkbox:focus,
 .review-form-checkbox:checked
 	+ .review-form-checkbox-label
 	> .review-form-own-checkbox {
 	border: none;
-	fill: #f4f4fd;
-}
+	fill: #4d5ae5;
+}*/
 .review-form-submit {
 	display: block;
 	min-width: 169px;
 	height: 56px;
-	margin-left: 119px;
-	margin-bottom: 24px;
+	margin-right: auto;
+	margin-left: auto;
+
 	padding: 16px 32px;
 	align-items: flex-start;
 	gap: 10px;
